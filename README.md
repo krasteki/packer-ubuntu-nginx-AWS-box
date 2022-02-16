@@ -1,4 +1,4 @@
-# This creates Amazon Machine Image with ubuntu OS and nginx on it using Packer
+# This repository creates Amazon Machine Image with ubuntu OS and nginx on it using Packer
 
 ### Prerequisites
 
@@ -16,7 +16,7 @@
 
 ##### 	Clone the repo
 ##### 	Run the following commands in the cloned folder:
-    -	packer init .  – Packer will download the plugin. In our case packer will download the Packer Amazon plugin that is greater than version 0.0.2.
-    -	packer fmt . – Updates templates in the current directory for readability and consistency. 
-    -	packer validate . – Validates the template. If Packer detects any invalid config, It will print out the file name, the error type and line number of the invalid configuration.
-    -	packer build . – It will build the image.
+        packer init .  – Packer will download the plugin. In our case packer will download the Packer Amazon plugin that is greater than version 0.0.2.
+        packer fmt . – Updates templates in the current directory for readability and consistency. 
+        packer validate . – Validates the template. If Packer detects any invalid config, It will print out the file name, the error type and line number of the invalid configuration.
+        packer build . – It will build the image.
