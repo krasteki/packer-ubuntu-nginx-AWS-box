@@ -5,7 +5,7 @@
 ##### 	Install Packer - https://learn.hashicorp.com/tutorials/packer/get-started-install-cli
 ##### 	Authenticate to AWS
 
->    -	Before you can build the AMI, you need to provide your AWS credentials to Packer as environment variables. You can create AWS credentials on this page. These credentials have permissions to create, modify and delete EC2 instance s. Refer to the documentation to find the full list IAM permissions required to run the amazon-ebs builder.
+>    -	Before you can build the AMI, you need to provide your AWS credentials to Packer as environment variables. You can create AWS credentials on [this page](https://console.aws.amazon.com/iam/home?#security_credential). These credentials have permissions to create, modify and delete EC2 instance s. Refer to the documentation to find the full list IAM permissions required to run the amazon-ebs builder.
 >    -	Add your AWS credentials as two environment variables, AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY, replacing YOUR_ACCESS_KEY and YOUR_SECRET_KEY with their respective values.
 
         export AWS_ACCESS_KEY_ID=YOUR_ACCESS_KEY
